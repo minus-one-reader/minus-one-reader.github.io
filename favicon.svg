@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Import Kufam for that bold, modern, attention-grabbing look -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Kufam:wght@900&amp;display=swap');
+      .num {
+        font-family: 'Kufam', sans-serif;
+        font-weight: 900;
+        font-size: 360px;
+        fill: #ffffff;
+        text-anchor: middle;
+        dominant-baseline: central;
+      }
+    </style>
+  </defs>
+
+  <!-- Background: Bold Red Rounded Square (Modern App-Icon Style) -->
+  <rect x="0" y="0" width="512" height="512" rx="110" ry="110" fill="#f87171" />
+
+  <!-- Main Number: -1 (Perfectly centered and scaled for maximum impact) -->
+  <text x="256" y="265" class="num">-1</text>
+</svg>
